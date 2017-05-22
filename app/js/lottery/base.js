@@ -171,6 +171,13 @@ class Base {
     }
   }
 
+  /**
+   * [addCodeItem 添加单次号码]
+   * @param {[type]} code     [description]
+   * @param {[type]} type     [description]
+   * @param {[type]} typeName [description]
+   * @param {[type]} count    [description]
+   */
   addCodeItem(code, type, typeName, count) {
     let self = this;
     const tpl =  `
